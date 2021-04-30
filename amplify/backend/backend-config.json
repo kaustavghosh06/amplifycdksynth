@@ -1,0 +1,9 @@
+{
+  "function": {
+    "cdkejectfdbf6518": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}

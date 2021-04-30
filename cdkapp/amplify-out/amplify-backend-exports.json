@@ -1,0 +1,17 @@
+{
+    "dev": { 
+        "templateFile": "amplify-out/root-stack-template.json",
+        "preserveLogicalIds": true,
+        "parameters": {
+          "DeploymentBucketName": "amplify-cdkeject-dev-142745-deployment",
+          "AuthRoleName": "amplify-cdkeject-dev-142745-authRole",
+          "UnauthRoleName": "amplify-cdkeject-dev-142745-unauthRole"
+        },
+        "loadNestedStacks": {
+          "functioncdkejectfdbf6518": {
+            "templateFile": "amplify-out/function/cdkejectfdbf6518/cdkejectfdbf6518-cloudformation-template.json",
+            "preserveLogicalIds": true
+          }
+        }
+      }
+}
